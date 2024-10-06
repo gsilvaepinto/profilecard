@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    margin: 0;
+}
+
+.container {
+    background-color: #1f1f1f;
+    width: 90vw; 
+    max-width: 400px;
+    height: auto;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    object-fit: cover;
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 0.5em;
+    color: #aec462;
+}
+
+h3 {
+    margin-top: 1.5em;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.social_media {
+    margin-top: 2em;
+}
+
+.social {
+    margin-top: 1.5em;
+    background-color: #333333;
+    color: white;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.06);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90vw;
+        padding: 1.5em;
+    }
+
+    img {
+        width: 5em;
+        height: 5em;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2, h3 {
+        font-size: 0.85rem;
+    }
+
+    .social {
+        height: 2.4em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 450px;
+        padding: 2.5em;
+    }
+
+    img {
+        width: 7em;
+        height: 7em;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2, h3 {
+        font-size: 1rem;
+    }
+
+    .social {
+        height: 2.75em;
+    }
+}
