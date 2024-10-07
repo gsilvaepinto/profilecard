@@ -14,4 +14,5 @@ This is a simple responsive profile card built with HTML and CSS. It showcases a
 - HTML5
 - CSS3 (Flexbox and Media Queries)
 
+## Screenshot
 <img width="1439" alt="Screenshot 2024-10-06 at 22 44 43" src="https://github.com/user-attachments/assets/48dac5eb-9763-4ae5-9387-60dd69459aad">
